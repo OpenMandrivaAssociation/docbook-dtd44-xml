@@ -1,6 +1,6 @@
 %define name docbook-dtd44-xml
 %define version 1.0
-%define release 1mdk
+%define release %mkrel 2
 %define dtdver 4.4
 %define mltyp xml
 
@@ -31,20 +31,20 @@ BuildArch	: noarch
 
 %define sgmlbase %{_datadir}/sgml
 
-%Description
+%description
 The DocBook Document Type Definition (DTD) describes the syntax of
 technical documentation texts (articles, books and manual pages).
 This syntax is XML-compliant and is developed by the OASIS consortium.
 This is the version %{dtdver} of this DTD.
 
 
-%Prep
+%prep
 %setup -n docbook-xml-%{dtdver} -q 
 
-%Build
+%build
 
 
-%Install
+%install
 rm -rf $RPM_BUILD_ROOT
 DESTDIR=$RPM_BUILD_ROOT%{sgmlbase}/docbook/%{mltyp}-dtd-%{dtdver}
 mkdir -p $DESTDIR
@@ -63,7 +63,7 @@ touch $RPM_BUILD_ROOT%{_sysconfdir}/sgml/%{mltyp}-docbook-%{dtdver}.cat
 rm -rf $RPM_BUILD_ROOT
 
 
-%Files
+%files
 %defattr (-,root,root)
 %doc README ChangeLog
 %dir %{sgmlbase}/docbook/%{mltyp}-dtd-%{dtdver}
