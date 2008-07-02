@@ -9,7 +9,7 @@ Version: %{version}
 Release: %{release}
 Group       	: Publishing
 
-Summary     	: XML document type definition for DocBook %{dtdver}.
+Summary     	: XML document type definition for DocBook %{dtdver}
 
 License   	: Artistic style
 URL         	: http://www.oasis-open.org/docbook/
