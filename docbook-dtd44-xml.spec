@@ -1,6 +1,6 @@
 %define name docbook-dtd44-xml
 %define version 1.0
-%define release %mkrel 7
+%define release %mkrel 8
 %define dtdver 4.4
 %define mltyp xml
 
