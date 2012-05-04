@@ -66,7 +66,6 @@ rm -rf %{buildroot}
 %files
 %defattr (-,root,root)
 %doc README ChangeLog
-%dir %{sgmlbase}/docbook/%{mltyp}-dtd-%{dtdver}
 %{sgmlbase}/docbook/%{mltyp}-dtd-%{dtdver}
 %ghost %config(noreplace) %{_sysconfdir}/sgml/%{mltyp}-docbook-%{dtdver}.cat
 # why this?
