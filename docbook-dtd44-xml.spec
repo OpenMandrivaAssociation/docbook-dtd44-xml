@@ -165,3 +165,63 @@ if [ "$1" = "0" ]; then
   fi
 fi
  
+
+
+%changelog
+* Fri May 04 2012 Götz Waschk <waschk@mandriva.org> 1.0-13mdv2012.0
++ Revision: 795871
+- fix file list for rpm5
+- yearly rebuild
+
+* Tue May 03 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0-12
++ Revision: 663838
+- mass rebuild
+
+* Thu Dec 02 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-11mdv2011.0
++ Revision: 604805
+- rebuild
+
+* Tue Mar 16 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-10mdv2010.1
++ Revision: 520690
+- rebuilt for 2010.1
+
+* Sun Aug 09 2009 Oden Eriksson <oeriksson@mandriva.com> 1.0-9mdv2010.0
++ Revision: 413368
+- rebuild
+
+* Sat Mar 07 2009 Antoine Ginies <aginies@mandriva.com> 1.0-8mdv2009.1
++ Revision: 350828
+- rebuild
+
+* Wed Jul 02 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0-7mdv2009.0
++ Revision: 230665
+- fix summary-ended-with-dot
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Sat Jan 12 2008 Thierry Vignaud <tv@mandriva.org> 1.0-5mdv2008.1
++ Revision: 149203
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Thu Aug 23 2007 Thierry Vignaud <tv@mandriva.org> 1.0-4mdv2008.0
++ Revision: 70199
+- fileutils, sh-utils & textutils have been obsoleted by coreutils a long time ago
+
+* Thu Aug 16 2007 Thierry Vignaud <tv@mandriva.org> 1.0-3mdv2008.0
++ Revision: 64215
+- rebuild
+
+* Sat Apr 28 2007 Adam Williamson <awilliamson@mandriva.org> 1.0-2mdv2008.0
++ Revision: 18846
+- rebuild for new era
+
+
+* Thu Oct 06 2005 Frederic Crozat <fcrozat@mandriva.com> 1.0-1mdk
+- First package
+
