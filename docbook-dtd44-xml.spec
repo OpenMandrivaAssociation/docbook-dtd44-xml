@@ -5,7 +5,7 @@
 Summary:	XML document type definition for DocBook %{dtdver}
 Name:		docbook-dtd44-xml
 Version:	1.0
-Release:	17
+Release:	18
 Group:		Publishing
 License:	Artistic style
 Url:		http://www.oasis-open.org/docbook/
@@ -89,7 +89,7 @@ CATALOG=%{sgmlbase}/docbook/xmlcatalog
 	"http://www.oasis-open.org/docbook/xml/%{dtdver}" \
 	"xml-dtd-%{dtdver}" $CATALOG
 %{_bindir}/xmlcatalog --noout --add "rewriteURI" \
-	"http://www.oasis-open.org/docbook/xml/4.3" \
+	"http://www.oasis-open.org/docbook/xml/%{dtdver}" \
 	"xml-dtd-%{dtdver}" $CATALOG
 
 %postun
